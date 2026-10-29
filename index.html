@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Glow Skin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff0f5;
+            text-align: center;
+            margin: 0;
+            color: #593847;
+        }
+
+        header {
+            background-color: #e99bb5;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 35px;
+        }
+
+        .portada {
+            padding: 35px 15px;
+        }
+
+        .productos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .tarjeta {
+            background: white;
+            padding: 20px;
+            width: 200px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px #e5c5d0;
+        }
+
+        .tarjeta img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .precio {
+            color: #d45483;
+            font-weight: bold;
+        }
+
+        button {
+            background: #e4779c;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #593847;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Glow Skin ✨</h1>
+        <p>Tu belleza, tu esencia</p>
+    </header>
+
+    <section class="portada">
+        <h2>¡Cuida tu piel y brilla cada día!</h2>
+        <p>Encuentra tus productos favoritos de skincare.</p>
+    </section>
+
+    <h2>Nuestros productos 💗</h2>
+
+    <section class="productos">
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=400&q=80" alt="Crema hidratante">
+            <h3>Crema hidratante</h3>
+            <p>Hidrata y cuida tu piel.</p>
+            <p class="precio">$8.990</p>
+            <button onclick="alert('¡Gracias por tu interés!')">Comprar</button>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=400&q=80" alt="Serum facial">
+            <h3>Sérum facial</h3>
+            <p>Un extra de cuidado facial.</p>
+            <p class="precio">$10.990</p>
+            <button onclick="alert('¡Gracias por tu interés!')">Comprar</button>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&q=80" alt="Limpiador facial">
+            <h3>Limpiador facial</h3>
+            <p>Limpieza para todos los días.</p>
+            <p class="precio">$6.990</p>
+            <button onclick="alert('¡Gracias por tu interés!')">Comprar</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <h3>Glow Skin</h3>
+        <p>Gracias por visitar nuestra tienda.</p>
+        <p>Proyecto escolar - 2026</p>
+    </footer>
+
+</body>
+</html>
